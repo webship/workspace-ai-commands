@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-ai-commands",
   "version": "1.0.0-alpha1",
-  "description": "The AI Commands workspace for Webship Workspace: the `ai-commands/` folder (type ai-items), its settings file, its 2 commands and its docs, activated as a plugin.",
+  "description": "The AI Commands workspace for Webship Workspace: the `ai-commands/` folder (type ai-items), its settings file, its 0 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -29,10 +29,7 @@
     "workspace": {
       "key": "ai-commands",
       "settingsTemplate": "config/workspace.ai-commands.settings.yml",
-      "files": [
-        "commands/cmd-tool-backup-command.sh",
-        "commands/cmd-tools-ai-items.sh"
-      ],
+      "files": [],
       "docs": [
         "docs/AGENTS.md",
         "docs/CLAUDE.md",
