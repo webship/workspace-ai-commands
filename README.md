@@ -1,4 +1,4 @@
-# @webship/workspace-ai-commands
+# @webship.co/workspace-ai-commands
 
 The **AI Commands** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `ai-commands/` folder (type `ai-items`), its settings file (`core/config/workspace.ai-commands.settings.yml`),
