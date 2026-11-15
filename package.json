@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-ai-commands",
   "version": "1.0.8",
-  "description": "The AI Commands workspace for Webship Workspace: the `ai-commands/` folder (type ai-items), its settings file, its 2 commands and its docs, activated as a plugin.",
+  "description": "The AI Commands workspace for Webship Workspace: the `ai-commands/` folder (type ai-items), its settings file, its 2 commands, its docs and its AI items (an agent, a skill, a command and a prompt, each in the folder of its kind), activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -11,6 +11,7 @@
   },
   "files": [
     "dist/src",
+    "ai",
     "commands",
     "config",
     "docs",
@@ -39,8 +40,27 @@
         "docs/README.md"
       ]
     },
+    "ai": {
+      "agents": [
+        "ai/agents/ai-commands-keeper.md"
+      ],
+      "skills": [
+        "ai/skills/ai-commands-workflow"
+      ],
+      "commands": [
+        "ai/commands/ai-commands-install.md"
+      ],
+      "prompts": [
+        "ai/prompts/ai-commands-write-a-new-command.md"
+      ]
+    },
     "features": [
       "features/ai-commands.feature"
+    ],
+    "suggests": [
+      "ai-agents",
+      "ai-skills",
+      "ai-prompts"
     ]
   },
   "devDependencies": {
