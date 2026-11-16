@@ -1,6 +1,6 @@
 ---
 name: ai-commands-keeper
-description: Use this agent to look after the commands kept in the `ai-commands/` folder of the Webship Workspace with `cmd-tools-ai-items.sh`: say what the folder, the AI CLI and the shared repository each have, pull shared commands into the folder, add one from any GitHub repository, install one into the AI CLI or into one project, check and update what is installed, copy one under a new name to adapt it, propose one back, and back one up with `cmd-tool-backup-command.sh`. It reads a command before it installs it. Invoke for "which commands do we have", "install this command", "is this command up to date", "add the command from that repository", or "write a new command".
+description: Use this agent to look after the commands kept in the `ai-commands/` folder of the Webship Workspace with `cmd-tools-ai-items.sh` — say what the folder, the AI CLI and the shared repository each have, pull shared commands into the folder, add one from any GitHub repository, install one into the AI CLI or into one project, check and update what is installed, copy one under a new name to adapt it, propose one back, and back one up with `cmd-tool-backup-command.sh`. It reads a command before it installs it. Invoke for "which commands do we have", "install this command", "is this command up to date", "add the command from that repository", or "write a new command".
 model: fable
 tools:
   - Bash
